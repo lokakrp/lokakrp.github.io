@@ -45,6 +45,13 @@ h2, h3 {
     text-align: left; 
 }
 
+/* styling for paragraph */
+p {
+    font-family: "Helvetica Neue Roman";
+    font-size: 400; 
+    color: #5a5a55;
+}
+
 /* styling for unordered lists */
 ul {
     list-style-type: none; 
