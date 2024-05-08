@@ -5,8 +5,11 @@
 }
 
 @font-face {
-    font-family: 'Helvetica Neue Bold';
-    src: url('https://raw.githubusercontent.com/lokakrp/fonts/main/helvetica%20neue/HelveticaNeueBold.otf') format('opentype');
+    font-family: 'Helvetica Neue';
+    src: url('https://raw.githubusercontent.com/lokakrp/fonts/main/helvetica%20neue/HelveticaNeue.t
+        
+        
+        tf') format('opentype');
 }
 
 /* body styling */
@@ -42,7 +45,7 @@ h2 {
     font-weight: bold; 
     font-size: 700;
     text-align: left; 
-    color: #525050;
+    color: ##333333;
 }
 
 /* styling for unordered lists */
