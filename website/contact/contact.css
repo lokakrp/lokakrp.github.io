@@ -5,8 +5,8 @@
 }
 
 @font-face {
-    font-family: 'Helvetica Neue';
-    src: url('https://raw.githubusercontent.com/lokakrp/fonts/main/helvetica%20neue/HelveticaNeue.ttf') format('opentype');
+    font-family: 'Helvetica Neue Bold';
+    src: url('https://raw.githubusercontent.com/lokakrp/fonts/main/helvetica%20neue/HelveticaNeueBold.otf') format('opentype');
 }
 
 /* body styling */
@@ -40,7 +40,7 @@ body {
 h2 {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
     font-weight: bold; 
-    font-size: 700px;
+    font-size: 700;
     text-align: left; 
     color: #525050;
 }
