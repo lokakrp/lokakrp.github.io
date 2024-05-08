@@ -23,7 +23,7 @@ h1 {
     font-size: 45px;
     margin-top: 200px; 
     color: #333; 
-    font-family: 'Helvetica Neue Bold', Helvetica, Arial, sans-serif; /* Use the Bold version for headings */
+    font-family: 'Helvetica Neue Bold', Helvetica, Arial, sans-serif; 
 }
 
 /* image styling */
@@ -45,7 +45,7 @@ h1 {
     font-size: 18px; 
     padding: 10px; 
     transition: color 0.3s; 
-    font-family: 'Helvetica Neue Roman', Helvetica, Arial, sans-serif; /* Use the Roman version for text */
+    font-family: 'Helvetica Neue Roman', Helvetica, Arial, sans-serif; 
 }
 
 .nav-links a:hover {
@@ -55,5 +55,13 @@ h1 {
 
 /* hides audio controls */
 audio {
-    display: none; /* Hides the audio controls */
+    display: none; /* Hides audio controls */
+}
+
+/* additional styling for the timer */
+#uk-time {
+    margin-top: 10px; /* adjusted margin to bring it closer to the image */
+    font-family: 'Helvetica Neue Roman', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    color: #333; /* slightly darker color for better readability */
 }
