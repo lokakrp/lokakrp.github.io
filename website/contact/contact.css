@@ -1,3 +1,14 @@
+/* font import from my github */
+@font-face {
+    font-family: 'Helvetica Neue Roman';
+    src: url('https://raw.githubusercontent.com/lokakrp/fonts/main/helvetica%20neue/HelveticaNeueRoman.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('https://raw.githubusercontent.com/lokakrp/fonts/main/helvetica%20neue/HelveticaNeue.ttf') format('opentype');
+}
+
 /* body styling */
 body {
     margin: 0;
@@ -29,6 +40,7 @@ body {
 h2 {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
     font-weight: bold; 
+    font-size: 700px;
     text-align: left; 
     color: #525050;
 }
