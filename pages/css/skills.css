@@ -1,4 +1,4 @@
-/* Font import from GitHub */
+/* font import from gitHub */
 @font-face {
     font-family: 'Helvetica Neue Roman';
     src: url('https://raw.githubusercontent.com/lokakrp/fonts/main/helvetica%20neue/HelveticaNeueRoman.otf') format('opentype');
@@ -9,7 +9,7 @@
     src: url('https://raw.githubusercontent.com/lokakrp/fonts/main/helvetica%20neue/HelveticaNeueBold.otf') format('opentype');
 }
 
-/* Body styling */
+/* body styling */
 body {
     margin: 0;
     padding: 0;
@@ -19,7 +19,7 @@ body {
     font-size: 20px;
 }
 
-/* Centered container with flexbox for horizontal centering */
+/* centered container with flexbox for horizontal centering */
 .center-container {
     display: flex;
     justify-content: center;
@@ -28,7 +28,7 @@ body {
     padding-top: 20px;
 }
 
-/* Styling for the centered box */
+/* styling for the centered box */
 .centered-box {
     width: 50%;
     margin: 0 auto;
@@ -36,8 +36,8 @@ body {
     text-align: left;
 }
 
-/* Heading styles with bold font weight */
-h2 {
+/* heading styles with bold font weight */
+h1, h2, h3 {
     font-family: "Helvetica Neue Bold", Helvetica, Arial, sans-serif;
     font-weight: bold;
     font-size: 24px; /* Consistent font size for h2 */
@@ -46,7 +46,7 @@ h2 {
     margin-bottom: 10px;
 }
 
-/* Paragraph styling */
+/* paragraph styling */
 p {
     font-family: "Helvetica Neue Roman", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #5a5a55;
@@ -54,7 +54,7 @@ p {
     font-size: 16px; /* Consistent font size for paragraphs */
 }
 
-/* Styling for unordered lists */
+/* styling for unordered lists */
 ul {
     list-style-type: none;
     padding: 0;
@@ -67,7 +67,7 @@ li {
     margin-bottom: 8px;
 }
 
-/* Link styles with hover effect */
+/* link styles with hover effect */
 a {
     text-decoration: none;
     color: #0066cc;
@@ -79,12 +79,12 @@ a:hover {
     color: #4e51ee;
 }
 
-/* Additional margin for specific class */
+/* additional margin for specific class */
 .linguistics {
     margin-top: 30px;
 }
 
-/* Additional styling for lists */
+/* additional styling for lists */
 .list {
     margin-bottom: 40px;
 }
