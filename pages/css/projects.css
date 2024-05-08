@@ -37,7 +37,7 @@ body {
 }
 
 /* heading styling for h2 and h3 */
-h2, h3 {
+h2{
     font-family: "Helvetica Neue Bold", Helvetica, Arial, sans-serif; 
     font-weight: bold; 
     font-size: 700;
