@@ -30,7 +30,7 @@ body {
 
 /* styling for the centered box */
 .centered-box {
-    width: 50%; 
+    width: 45%; 
     margin: 0 auto; 
     padding: 20px; 
     text-align: left;
@@ -42,7 +42,13 @@ h2 {
     font-weight: bold; 
     font-size: 700;
     text-align: left; 
-    color: ##333333;
+    color: #222222;
+}
+/* */
+
+p {
+    font-family:"Helvetica Neue Roman";
+    color: #111111;
 }
 
 /* styling for unordered lists */
