@@ -30,7 +30,8 @@ h1 {
 .center-image {
     width: 300px; 
     height: auto; 
-    margin: 20px auto; 
+    margin-top: 15px;
+    margin-bottom: 8px;
 }
 
 /* nav menu styling */
