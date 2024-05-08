@@ -9,6 +9,11 @@
     src: url('https://raw.githubusercontent.com/lokakrp/fonts/main/helvetica%20neue/HelveticaNeue.ttf') format('opentype');
 }
 
+@font-face {
+    font-family: 'Helvetica Neue Thin';
+    src: url('https://raw.githubusercontent.com/lokakrp/fonts/main/helvetica%20neue/HelveticaNeueThin.otf') format('opentype');
+}
+
 /* body styling */
 body {
     margin: 0;
