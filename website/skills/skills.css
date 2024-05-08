@@ -1,3 +1,14 @@
+/* font import from my github */
+@font-face {
+    font-family: 'Helvetica Neue Roman';
+    src: url('https://raw.githubusercontent.com/lokakrp/fonts/main/helvetica%20neue/HelveticaNeueRoman.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('https://raw.githubusercontent.com/lokakrp/fonts/main/helvetica%20neue/HelveticaNeue.ttf') format('opentype');
+}
+
 /* base styling for the entire document */
 body {
     margin: 0;
