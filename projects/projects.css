@@ -1,0 +1,56 @@
+/* base styling for the entire document */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+    background-color: #fffff0; 
+    height: 100vh; 
+    font-size: 20px; 
+}
+
+/* container to center content */
+.center-container {
+    display: flex;
+    justify-content: center; 
+    align-items: flex-start; 
+    flex-direction: column; 
+    padding-top: 20px; 
+}
+
+/* styling for the centered box */
+.centered-box {
+    width: 45%; 
+    margin: 0 auto; 
+    padding: 20px;
+    text-align: left; 
+}
+
+/* heading styling for h2 and h3 */
+h2, h3 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: bold; 
+    color: #525050; 
+    text-align: left; 
+}
+
+/* styling for unordered lists */
+ul {
+    list-style-type: none; 
+    padding: 0; 
+}
+
+li {
+    margin-bottom: 8px; 
+}
+
+/* link styling */
+a {
+    text-decoration: none; 
+    color: #0066cc; 
+    transition: all 0.3s; 
+}
+
+a:hover {
+    text-decoration: underline; 
+    color: #4e51ee; 
+}

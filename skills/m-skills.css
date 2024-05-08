@@ -1,0 +1,74 @@
+/* fonts imported from my github */
+
+@font-face {
+    font-family: "Helvetica Neue Roman";
+    src: url('https://raw.githubusercontent.com/lokakrp/fonts/main/helvetica%20neue/HelveticaNeueRoman.otf') format('opentype');
+}
+
+@font-face {
+    font-family: "Helvetica Neue Bold";
+    src: url('https://raw.githubusercontent.com/lokakrp/fonts/main/helvetica%20neue/HelveticaNeueBold.otf') format('opentype');
+}
+
+/* body styling optimized for mobile */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Neue Roman", helvetica, arial, sans-serif;
+    background-color: #fffff0;
+    font-size: 16px; 
+}
+
+/* centered container for mobile screens */
+.center-container {
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-start;
+    align-items: center; 
+    padding-top: 20px; 
+}
+
+/* centered box styling for mobile */
+.centered-box {
+    width: 90%; 
+    max-width: 600px; 
+    margin: 0 auto;
+    padding: 15px;
+    text-align: left;
+}
+
+/* heading styles with adjusted margins */
+h2, h3 {
+    font-family: "Helvetica Neue Bold", helvetica, arial, sans-serif;
+    font-weight: bold;
+    color: #525050;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+/* unordered list styling for mobile */
+ul {
+    list-style-type: disc;
+    padding-left: 20px; 
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* link styling for mobile */
+a {
+    text-decoration: none;
+    color: #0066cc;
+    transition: color 0.3s;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #4e51ee;
+}
+
+/* additional margin for specific elements */
+.linguistics {
+    margin-top: 20px; 
+}

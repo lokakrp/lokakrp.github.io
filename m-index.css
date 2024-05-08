@@ -1,0 +1,48 @@
+/* mobile-friendly layout */
+body {
+    font-family: 'Helvetica Neue Roman', Helvetica, Arial, sans-serif;
+    background-color: #fffff0;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* optimize heading for smaller screens */
+h1 {
+    font-size: 35px; 
+    margin-top: 50px; 
+    color: #333;
+    font-family: 'Helvetica Neue Bold', Helvetica, Arial, sans-serif;
+}
+
+/* adjusts image size for mobile */
+.center-image {
+    max-width: 90%; 
+    height: auto;
+    margin: 20px auto;
+}
+
+/* adjust navigation links for mobile */
+.nav-links {
+    margin-top: 20px; 
+    display: inline-block; 
+    text-align: center;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #0066cc;
+    font-size: 18px; /* readable */
+    padding: 10px; 
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    text-decoration: underline;
+    color: #aa74b8;
+}
+
+/* Hide audio controls */
+audio {
+    display: none; 
+}

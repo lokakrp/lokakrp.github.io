@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Loka's Website</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="m-index.css"> 
+
+    <!-- hidden audio with autoplay -->
+    <audio id="background-music" src="media/song.mp3" type="audio/mpeg" loop autoplay></audio> 
+
+    <!-- volume level script -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var audio = document.getElementById("background-music");
+            if (audio) {
+                audio.volume = 0.01; // 1%
+            }
+        });
+
+        function updateUKTime() {
+            var now = new Date();
+            var utcOffset = now.getTimezoneOffset() * 60000;
+            var ukOffset = 3600000; 
+            var ukTime = new Date(now.getTime() + utcOffset + ukOffset);
+
+            var timeString = ukTime.toLocaleTimeString('en-GB', {
+                hour: '2-digit',
+                minute: '2-digit',
+                second: '2-digit',
+                hour12: false
+            });
+
+            document.getElementById("uk-time").textContent = "Time for me: " + timeString;
+        }
+
+        // updates every second
+        setInterval(updateUKTime, 1000);
+    </script>
+
+    <!-- viewport meta tag for responsive design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <h1>Lokanātha Karpūra</h1> 
+
+    <!-- centered image -->
+    <img src="media/dog.png" alt="dog" class="center-image"><br> 
+
+    <!-- display the UK time -->
+    <div id="uk-time" style="margin: 10px 0;"></div>
+
+    <!-- navigation links -->
+    <div class="nav-links">
+        <a href="about/about.html">About //</a> 
+        <a href="projects/projects.html">Projects //</a> 
+        <a href="skills/skills.html">Skills //</a> 
+        <a href="contact/contact.html">Contact //</a> 
+    </div>
+</body>
+</html>
