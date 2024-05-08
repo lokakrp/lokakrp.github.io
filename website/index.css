@@ -60,8 +60,8 @@ audio {
 
 /* additional styling for the timer */
 #uk-time {
-    margin-top: 4px; /* adjusted margin to bring it closer to the image */
+    margin-top: 4px; 
     font-family: 'Helvetica Neue Roman', Helvetica, Arial, sans-serif;
     font-size: 16px;
-    color: #333; /* slightly darker color for better readability */
+    color: #333; 
 }
