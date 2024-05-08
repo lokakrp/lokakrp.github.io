@@ -46,6 +46,12 @@ h2, h3 {
     margin-bottom: 10px;
 }
 
+p {
+    font-family: "Helvetica Neue Bold";
+    font-size: 400;
+    color: #5a5a55;
+}
+
 /* styling for unordered lists */
 ul {
     list-style-type: none; 
