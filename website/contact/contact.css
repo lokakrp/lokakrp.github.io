@@ -49,6 +49,8 @@ h2 {
 ul {
     list-style-type: none; 
     padding: 0; 
+    font-family: "Helvetica Neue Roman";
+    color: #5a5a55;
 }
 
 li {
