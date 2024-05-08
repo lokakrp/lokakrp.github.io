@@ -30,7 +30,7 @@ body {
 
 /* styling for the centered box */
 .centered-box {
-    width: 45%; 
+    width: 50%; 
     margin: 0 auto; 
     padding: 20px; 
     text-align: left;
