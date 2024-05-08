@@ -1,4 +1,4 @@
-/* font import from my github */
+/* font import from my gitHub */
 @font-face {
     font-family: 'Helvetica Neue Roman';
     src: url('https://raw.githubusercontent.com/lokakrp/fonts/main/helvetica%20neue/HelveticaNeueRoman.otf') format('opentype');
@@ -13,18 +13,22 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Helvetica Neue Roman', Helvetica, Arial, sans-serif;
+    font-family: 'Helvetica Neue Roman', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     background-color: #fffff0;
     height: 100vh;
     font-size: 20px;
 }
 
-/* margin-based centering */
+/* centered container with flexbox for horizontal centering */
 .center-container {
-    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
     padding-top: 20px;
 }
 
+/* styling for the centered box */
 .centered-box {
     width: 50%;
     margin: 0 auto;
@@ -32,24 +36,33 @@ body {
     text-align: left;
 }
 
-/* heading styles with 'Helvetica Neue Black' font weight */
+/* heading styles with bold font weight */
 h2 {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Helvetica Neue Bold', Helvetica, Arial, sans-serif;
     font-weight: bold;
     font-size: 700;
     text-align: left;
-    margin: 0px 0;
     color: #333333;
 }
 
 /* paragraph styling */
 p {
-    text-align: left;
-    font-family: 'Helvetica Neue Roman', Helvetica, Arial, sans-serif;
+    font-family: 'Helvetica Neue Roman', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #5a5a55;
     line-height: 1.5;
     margin: 10px 0;
-    margin-bottom: 40px;
+}
+
+/* styling for unordered lists */
+ul {
+    list-style-type: none;
+    padding: 0;
+    font-family: 'Helvetica Neue Roman', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     color: #5a5a55;
+}
+
+li {
+    margin-bottom: 8px;
 }
 
 /* link styles with hover effect */
@@ -59,7 +72,12 @@ a {
     transition: all 0.3s;
 }
 
-    a:hover {
-        text-decoration: underline;
-        color: #4e51ee;
-    }
+a:hover {
+    text-decoration: underline;
+    color: #4e51ee;
+}
+
+/* additional margin for list elements */
+.list {
+    margin-bottom: 40px;
+}
