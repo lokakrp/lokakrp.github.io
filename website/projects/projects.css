@@ -1,0 +1,56 @@
+/* Base styling for the entire document */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; /* Font for the entire document */
+    background-color: #fffff0; /* Light ivory background */
+    height: 100vh; /* Occupies full viewport height */
+    font-size: 20px; /* Default font size for body text */
+}
+
+/* Container to center content */
+.center-container {
+    display: flex;
+    justify-content: center; /* Centers content horizontally */
+    align-items: flex-start; /* Aligns content to the top */
+    flex-direction: column; /* Arranges elements in a column */
+    padding-top: 20px; /* Padding at the top */
+}
+
+/* Styling for the centered box */
+.centered-box {
+    width: 45%; /* Fixed width to maintain centered content */
+    margin: 0 auto; /* Centers box horizontally */
+    padding: 20px; /* Internal padding */
+    text-align: left; /* Aligns text to the left */
+}
+
+/* Heading styling for h2 and h3 */
+h2, h3 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; /* Use consistent font */
+    font-weight: bold; /* Bold font for headings */
+    color: #525050; /* Grey color for headings */
+    text-align: left; /* Keep headings left-aligned */
+}
+
+/* Styling for unordered lists */
+ul {
+    list-style-type: none; /* No default bullet points */
+    padding: 0; /* No padding for the list */
+}
+
+li {
+    margin-bottom: 8px; /* Spacing between list items */
+}
+
+/* Link styling */
+a {
+    text-decoration: none; /* No underline for links */
+    color: #0066cc; /* Blue for links */
+    transition: all 0.3s; /* Smooth transition for hover effect */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline when hovering */
+    color: #4e51ee; /* Change color on hover */
+}
