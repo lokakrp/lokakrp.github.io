@@ -5,7 +5,7 @@
 }
 
 @font-face {
-    font-family: 'Helvetica Neue';
+    font-family: 'Helvetica Neue Bold';
     src: url('https://raw.githubusercontent.com/lokakrp/fonts/main/helvetica%20neue/HelveticaNeueBold.otf') format('opentype');
 }
 
@@ -23,7 +23,7 @@ h1 {
     font-size: 45px;
     margin-top: 200px;
     color: #333;
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Helvetica Neue Bold', Helvetica, Arial, sans-serif;
 }
 
 /* image styling */
