@@ -5,7 +5,7 @@
 }
 
 @font-face {
-    font-family: 'Helvetica Neue Bold';
+    font-family: 'Helvetica Neues';
     src: url('https://raw.githubusercontent.com/lokakrp/fonts/main/helvetica%20neue/HelveticaNeueBold.otf') format('opentype');
 }
 
@@ -60,7 +60,8 @@ audio {
 
 /* additional styling for the timer */
 #uk-time {
-    margin-top: 4px; 
+    margin-top: 10px;
+    margin-bottom: 12px; 
     font-family: 'Helvetica Neue Roman', Helvetica, Arial, sans-serif;
     font-size: 16px;
     color: #333; 
