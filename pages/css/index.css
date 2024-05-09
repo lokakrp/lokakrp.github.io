@@ -5,8 +5,8 @@
 }
 
 @font-face {
-    font-family: 'Helvetica Neues';
-    src: url('https://raw.githubusercontent.com/lokakrp/fonts/main/helvetica%20neue/HelveticaNeueBold.otf') format('opentype');
+    font-family: 'Helvetica Neue Medium';
+    src: url('https://raw.githubusercontent.com/lokakrp/fonts/main/helvetica%20neue/HelveticaNeueMedium.otf') format('opentype');
 }
 
 /* reset for body margin and padding */
@@ -21,9 +21,10 @@ body {
 /* title styling with Helvetica Neue Black */
 h1 {
     font-size: 45px;
+    font-weight: 590;
     margin-top: 200px;
     color: #333;
-    font-family: 'Helvetica Neue Bold', Helvetica, Arial, sans-serif;
+    font-family: 'Helvetica Neue Medium', Helvetica, Arial, sans-serif;
 }
 
 /* image styling */

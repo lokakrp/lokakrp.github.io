@@ -5,8 +5,8 @@
 }
 
 @font-face {
-    font-family: 'Helvetica Neue';
-    src: url('https://raw.githubusercontent.com/lokakrp/fonts/main/helvetica%20neue/HelveticaNeue.ttf') format('opentype');
+    font-family: 'Helvetica Neue Medium';
+    src: url('https://raw.githubusercontent.com/lokakrp/fonts/main/helvetica%20neue/HelveticaNeueMedium.otf') format('opentype');
 }
 
 /* body styling */
@@ -38,8 +38,8 @@ body {
 
 /* heading styles with bold font weight */
 h2 {
-    font-family: "Helvetica Neue Bold", Helvetica, Arial, sans-serif;
-    font-weight: bold;
+    font-family: "Helvetica Neue Medium", Helvetica, Arial, sans-serif;
+    font-weight: 600;
     font-size: 30px; /* set h2 font size to 30px */
     text-align: left;
     color: #333333;
