@@ -34,26 +34,6 @@ h1 {
     margin-top: 20px;
 }
 
-/* nav menu styling */
-.nav-links {
-    margin-top: 20px;
-    display: inline-block;
-}
-
-    .nav-links a {
-        text-decoration: none;
-        color: #0066cc;
-        font-size: 18px;
-        padding: 10px;
-        transition: color 0.3s;
-        font-family: 'Helvetica Neue Roman', Helvetica, Arial, sans-serif;
-    }
-
-        .nav-links a:hover {
-            text-decoration: underline;
-            color: #aa74b8;
-        }
-
 /* hides audio controls */
 audio {
     display: none; /* hides audio controls */
@@ -66,4 +46,59 @@ audio {
     font-family: 'Helvetica Neue Roman', Helvetica, Arial, sans-serif;
     font-size: 16px;
     color: #333; 
+}
+
+/* navlinks styles */
+
+.nav-links {
+    margin-top: 20px;
+    display: inline-block;
+}
+
+a:link {
+color: #76a4be;
+}
+
+a:visited {
+color: #76a4be;
+}
+
+a:hover {
+color: #7eac87;
+}
+
+a:active {
+color: #7eac87;
+}
+
+a:focus {
+color: #7eac87;
+}
+
+a.select:link {
+color: #333;
+}
+
+a.select:visited {
+color: #333;
+}
+
+a.select:hover {
+color: peru;
+}
+
+a.select:active {
+color: peru;
+}
+
+a.select:focus {
+color: peru;
+}
+
+.heading {
+    margin-bottom:5px;
+}
+
+.subtitle {
+    color: #777777;
 }
