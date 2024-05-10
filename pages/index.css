@@ -4,16 +4,11 @@
     src: url('https://raw.githubusercontent.com/lokakrp/fonts/main/helvetica%20neue/HelveticaNeueRoman.otf') format('opentype');
 }
 
-@font-face {
-    font-family: 'Helvetica Neue Medium';
-    src: url('https://raw.githubusercontent.com/lokakrp/fonts/main/helvetica%20neue/HelveticaNeueMedium.otf') format('opentype');
-}
-
 /* reset for body margin and padding */
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Helvetica Neue Roman', Helvetica, Arial, sans-serif;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     background-color: #fffff0;
     text-align: center;
 }
@@ -24,7 +19,7 @@ h1 {
     font-weight: 590;
     margin-top: 200px;
     color: #333;
-    font-family: 'Helvetica Neue Medium', Helvetica, Arial, sans-serif;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 /* image styling */
@@ -36,14 +31,14 @@ h1 {
 
 /* hides audio controls */
 audio {
-    display: none; /* hides audio controls */
+    display: none; 
 }
 
 /* additional styling for the timer */
 #uk-time {
     margin-top: 10px;
     margin-bottom: 12px; 
-    font-family: 'Helvetica Neue Roman', Helvetica, Arial, sans-serif;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 16px;
     color: #333; 
 }
@@ -53,6 +48,9 @@ audio {
 .nav-links {
     margin-top: 20px;
     display: inline-block;
+    padding: 10px;
+    transition: color 0.3s;
+    font-family: 'Helvetica Neue'
 }
 
 a:link {
