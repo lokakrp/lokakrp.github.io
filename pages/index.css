@@ -8,7 +8,7 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: "Helvetica Neue", "UD デジタル 教科書体 N-R", serif;
     background-color: #fffff0;
     text-align: center;
 }
@@ -19,7 +19,7 @@ h1 {
     font-weight: 590;
     margin-top: 200px;
     color: #333;
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: "Helvetica Neue", "UD デジタル 教科書体 N-R", serif;
 }
 
 /* image styling */
@@ -38,7 +38,7 @@ audio {
 #uk-time {
     margin-top: 10px;
     margin-bottom: 12px; 
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: "Helvetica Neue", "UD デジタル 教科書体 N-R", serif;
     font-size: 16px;
     color: #333; 
 }
@@ -50,7 +50,15 @@ audio {
     display: inline-block;
     padding: 10px;
     transition: color 0.3s;
-    font-family: 'Helvetica Neue'
+    font-family: "Helvetica Neue", "UD デジタル 教科書体 N-R", serif;
+}
+
+.nav-links a{
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    transition: color 0.3s;
+    font-family: "Helvetica Neue", "UD デジタル 教科書体 N-R", serif;
 }
 
 a:link {
