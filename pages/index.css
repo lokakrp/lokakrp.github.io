@@ -13,7 +13,7 @@ body {
     text-align: center;
 }
 
-/* title styling with Helvetica Neue Black */
+/* title styling */
 h1 {
     font-size: 45px;
     font-weight: 590;
@@ -29,24 +29,19 @@ h1 {
     margin-top: 20px;
 }
 
-/* hides audio controls */
-audio {
-    display: none; 
-}
-
 /* additional styling for the timer */
 #uk-time {
-    margin-top: 10px;
+    margin-top: 15px;
     margin-bottom: 12px; 
     font-family: "Helvetica Neue", "UD デジタル 教科書体 N-R", serif;
     font-size: 16px;
     color: #333; 
 }
 
-/* navlinks styles */
+/* link styles */
 
 .nav-links {
-    margin-top: 20px;
+    margin-top: 9px;
     display: inline-block;
     padding: 10px;
     transition: color 0.3s;
@@ -62,11 +57,11 @@ audio {
 }
 
 a:link {
-color: #76a4be;
+color: #508bda;
 }
 
 a:visited {
-color: #76a4be;
+color: #508bda;
 }
 
 a:hover {
@@ -107,4 +102,9 @@ color: peru;
 
 .subtitle {
     color: #777777;
+}
+
+/* hides audio controls */
+audio {
+    display: none; 
 }
