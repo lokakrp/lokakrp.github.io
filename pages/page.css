@@ -26,7 +26,7 @@ h1 {
 }
 hr {
     border: none;
-    border-bottom: 1px solid  #ece3d4;
+    border-bottom: 1px solid  #cfb9ac;
     margin: calc(100% / 170);
   }
 
@@ -51,7 +51,7 @@ body {
 
 
     margin: auto;
-    margin-top: calc(100% / 95);
+    margin-top: calc(100% / 80);
     margin-bottom: calc(100% / 99);
     padding: 60px;
     color: #333;
@@ -70,12 +70,13 @@ body > #body {
     height: auto;
 }
 
+
 a:link {
-color: #76a4be;
+color: #508bda;
 }
 
 a:visited {
-color: #76a4be;
+color: #508bda;
 }
 
 a:hover {
