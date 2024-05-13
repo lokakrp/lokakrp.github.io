@@ -125,7 +125,7 @@ color: peru;
         font-family: 'Helvetica Neue';
         src: url('https://raw.githubusercontent.com/lokakrp/fonts/main/helvetica%20neue/HelveticaNeueRoman.otf') format('opentype');
     }
-
+    
     a {
         text-decoration: none;
     }
@@ -146,11 +146,5 @@ color: peru;
 
     li {
         font-size: 16px;
-    }
-
-    .centered-box {
-        margin-top: 50px;
-        margin-bottom: 50px; 
-        padding: 20px; 
     }
 }

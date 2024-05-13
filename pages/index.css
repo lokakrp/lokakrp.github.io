@@ -121,7 +121,6 @@ audio {
         align-items: center;
         justify-content: center; 
         height: 100vh;
-        margin-top: 50%; 
     }
 
     .centered-box {
@@ -137,11 +136,11 @@ audio {
         width: 250px; 
         height: auto;
         margin-top: auto; 
-        margin-bottom: 20px; 
+        margin-bottom: 10px; 
     }
 
     #uk-time {
-        margin-top: 5px;
+        margin-top: 2px;
         margin-bottom: 4px;
         font-size: 14px;
     }
