@@ -108,3 +108,36 @@ color: peru;
 audio {
     display: none; 
 }
+
+/* styles for mobile devices */
+@media only screen and (max-width: 768px) {
+    
+    body {
+        padding-top: 10px;
+    }
+
+    h1 {
+        font-size: 30px;
+        margin-top: 30px;
+    }
+
+    .center-image {
+        width: 150px;
+        margin-top: 10px;
+    }
+
+    #uk-time {
+        margin-top: 10px;
+        margin-bottom: 8px;
+        font-size: 14px;
+    }
+
+    .nav-links {
+        margin-top: 10px;
+    }
+
+    .nav-links a {
+        font-size: 16px;
+        padding: 8px;
+    }
+}
