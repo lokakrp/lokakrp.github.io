@@ -121,7 +121,6 @@ color: peru;
 
 /* Styles for mobile devices */
 @media only screen and (max-width: 768px) {
-
     /* font import from my github */
     @font-face {
         font-family: 'Helvetica Neue';
@@ -149,3 +148,4 @@ color: peru;
     li {
         font-size: 16px; /* Decreased font size for list items */
     }
+}
