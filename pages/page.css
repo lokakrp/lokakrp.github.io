@@ -118,3 +118,34 @@ color: peru;
 .subtitle {
     color: #777777;
 }
+
+/* Styles for mobile devices */
+@media only screen and (max-width: 768px) {
+
+    /* font import from my github */
+    @font-face {
+        font-family: 'Helvetica Neue';
+        src: url('https://raw.githubusercontent.com/lokakrp/fonts/main/helvetica%20neue/HelveticaNeueRoman.otf') format('opentype');
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    p, h2, ul, li {
+        font-family: "Helvetica Neue", "UD デジタル 教科書体 N-R", serif;
+        word-wrap: break-word;
+    }
+
+    h2 {
+        font-size: 30px; /* Decreased font size for h2 */
+        margin-bottom: 10px; /* Added margin at the bottom */
+    }
+
+    ul {
+        padding-left: 20px; /* Added left padding for better list styling */
+    }
+
+    li {
+        font-size: 16px; /* Decreased font size for list items */
+    }
